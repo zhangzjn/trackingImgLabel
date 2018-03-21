@@ -74,13 +74,13 @@ show video's infomation
 <p align="center">
   <img src="pic/detection_image.png", width="320">
   <img src="pic/detection_label.png", width="320">
-</p>  
+</p>   
 **object detection**  
 <p align="center">
   <img src="pic/classification.png", width="320">
-</p>  
+</p>   
 ## license
-Free software: [license](LICENSE)  
+Free software: [license](LICENSE)   
 ## mail
 if you have any question you can contact me:  
 **186368@zju.edu.cn**   or   **zhangzjn@qq.com**  
