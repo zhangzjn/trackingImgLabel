@@ -35,6 +35,9 @@ tested in windows10, use the software directly
 link:[[download exe]](https://pan.baidu.com/s/1lxbdsljSyW_AI7G6sXqJnw)  
 `password: 2f07`
 
+## exe   
+1. make sure not to contain the Chinese path
+
 
 ## **Usage**
 -------------------
@@ -85,7 +88,7 @@ show video's infomation
 
 `detection:`saving mode, if select it will save XML format for **object detection**(label_detection folder, generate JPEGImages for images storage and Annotations for xml storage), otherwise save classification frames for **classification**(label_class folder, generate Images for images storage and a label_train.txt)  
 
-`start saving:`start saving the result   
+`start saving:`start saving the result    
 **object detection result**   
 <p align="center">
   <img src="pic/detection_image.png", width="320">    
