@@ -45,13 +45,13 @@ link:[[download exe]](https://pan.baidu.com/s/1lxbdsljSyW_AI7G6sXqJnw)
 <p align="center">
   <img src="pic/video play.jpg", width="480">
 </p>   
-click left button to choose object(can choose several objects at the same time)  
+click left button to choose object(can choose several objects at the same time)   
 5. info dock  
 <p align="center">
   <img src="pic/info.jpg", width="320">
 </p>   
 `current frame:`current operation frame, displayed in left  
-`tracking frames:`how many frames to track
+`tracking frames:`how many frames to track   
 `save current label:`save current frame's label to memory  
 `erase current label:`erase current frame's label then you can re-label current frame  
 `start tracking:`track start from `current frame` to `current frame + tracking frames`
@@ -60,7 +60,7 @@ after finishing tracking, you can change `current frame` value to check annotati
 <p align="center">
   <img src="pic/video info.jpg", width="320">
 </p>  
-show video's infomation  
+show video's infomation   
 7. save option   
 <p align="center">
   <img src="pic/save option.jpg", width="320">
