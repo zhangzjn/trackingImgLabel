@@ -3,7 +3,7 @@
 TrackingImgLabel is an automatic graphical image annotation tool with a video as input, which uses a tracking algorithm to track the object. You can only label the first frame of the video, then the tracking algorithm will automatically track the objects.  
 Written in **python3.5**, using **opencv3** and **PyQt5**.  
 Annotations can be both saved as XML files in PASCAL VOC format**(object detection task)** and classification images**(classification task)**  
-**tracking method** KCF(if you want to inprove the result, changing a better tracking algorithm)  
+**tracking method** KCF(if you want to inprove the result, then change a better tracking algorithm)  
 <p align="center">
   <img src="pic/interface.jpg", width="480">
 </p>
