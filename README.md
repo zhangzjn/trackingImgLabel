@@ -38,38 +38,38 @@ link:[[download exe]](https://pan.baidu.com/s/1lxbdsljSyW_AI7G6sXqJnw)
 
 ## **Usage**
 -------------------
-1. replace label.txt with your own classes
-2. open a video
-3. choose a save folder
+1. replace label.txt with your own classes  
+2. open a video  
+3. choose a save folder  
 4. video play dock   
 <p align="center">
   <img src="pic/video play.jpg", width="480">
-</p>  
-click left button to choose object(can choose several objects at the same time)
+</p>   
+click left button to choose object(can choose several objects at the same time)  
 5. info dock  
 <p align="center">
   <img src="pic/info.jpg", width="320">
-</p>  
+</p>   
 `current frame:`current operation frame, displayed in left  
 `tracking frames:`how many frames to track
 `save current label:`save current frame's label to memory  
 `erase current label:`erase current frame's label then you can re-label current frame  
 `start tracking:`track start from `current frame` to `current frame + tracking frames`
-after finishing tracking, you can change `current frame` value to check annotation, if not satisfying you can erase current frame's label and continue to re-label  
+after finishing tracking, you can change `current frame` value to check annotation, if not satisfying you can erase current frame's label and continue to re-label    
 6. video info  
 <p align="center">
   <img src="pic/video info.jpg", width="320">
 </p>  
-show video's infomation
-7. save option  
+show video's infomation  
+7. save option   
 <p align="center">
   <img src="pic/save option.jpg", width="320">
-</p>  
+</p>   
 `start frame:`start frame when saving  
 `end frame:`end frame when saving  
 `save gap:`save a frame every `gap` frames because of redundancy of the video  
 `detection:`saving mode, if select it will save XML format for **object detection**(label_detection folder, generate JPEGImages for images storage and Annotations for xml storage), otherwise save classification frames for **classification**(label_class folder, generate Images for images storage and a label_train.txt)  
-`start saving:`start saving the result  
+`start saving:`start saving the result   
 **object detection result**  
 <p align="center">
   <img src="pic/detection_image.png", width="320">    
@@ -79,8 +79,8 @@ show video's infomation
 <p align="center">
   <img src="pic/classification.png", width="320">
 </p>   
-## license
+## license  
 Free software: [license](LICENSE)   
-## mail
-if you have any question you can contact me:  
+## mail  
+if you have any question you can contact me:   
 **186368@zju.edu.cn**   or   **zhangzjn@qq.com**  
