@@ -35,7 +35,7 @@ tested in windows10, use the software directly
 link:[[download exe]](https://pan.baidu.com/s/1lxbdsljSyW_AI7G6sXqJnw)  
 `password: 2f07`
 
-## exe   
+## note   
 1. make sure not to contain the Chinese path
 
 
