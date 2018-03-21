@@ -1,16 +1,16 @@
 # **trackingImgLabel**
 ----------------------
-TrackingImgLabel is an automatic graphical image annotation tool with a video as input, which uses a tracking algorithm to track the object. You can only label the first frame of the video, then the tracking algorithm will automatically track the objects.  
+TrackingImgLabel is an automatic image annotation tool with video input, which uses tracking algorithm to track the object. You can label the first frame of the video, then the tracking algorithm will automatically track the objects.  
 Written in **python3.5**, using **opencv3** and **PyQt5**.  
-Annotations can be both saved as XML files in PASCAL VOC format**(object detection task)** and classification images**(classification task)**  
-**tracking method** KCF(if you want to inprove the result, then change a better tracking algorithm)  
+Annotations can be both saved as XML files in PASCAL VOC format**(object detection task)** and classification images**(classification task)**
+The **tracking method** we used is KCF(if you want to improve the result, change a better tracking algorithm)  
 <p align="center">
   <img src="pic/interface.jpg", width="480">
 </p>
 
-# **Installation**
+## Installation
 -------------------
-## Ubuntu
+### Ubuntu
 tested in ubuntu16.04, anaconda3-4.1.1.   
 link:[[download anaconda]](https://repo.continuum.io/)   
 after you installed anaconda(PyQt5 included), you must continue install opencv3 by the following commands    
@@ -24,34 +24,33 @@ if you don't use conda environment, you must install some frequently-used libs, 
 `pip install opencv-python`  
 `pip install numpy --upgrade`
 
-## Windows
+### Windows
 tested in Windows10, annaconda3-4.1.1  
 link:[[download opencv3]](https://www.lfd.uci.edu/~gohlke/pythonlibs/#opencv)  
 then in anaconda env, use pip to install opencv3, and upgrade numpy   
 `pip install numpy --upgrade`
 
-## exe
+### Download prebuilt binaries
 tested in windows10, use the software directly  
 link:[[download exe]](https://pan.baidu.com/s/1lxbdsljSyW_AI7G6sXqJnw)  
 `password: 2f07`
 
-## note   
+### Notes
 1. make sure not to contain the Chinese path
 
-
-## **Usage**
+## Usage
 -------------------
 1. replace label.txt with your own classes  
 
 2. open a video  
 
-3. choose a save folder  
+3. choose the output folder
 
-4. video play dock   
+4. in the video play dock
 <p align="center">
   <img src="pic/video play.jpg", width="480">
 </p>   
-click left button to choose object(can choose several objects at the same time)   
+click left button to choose object(you can choose several objects at the same time)
 
 5. info dock  
 <p align="center">
@@ -60,7 +59,7 @@ click left button to choose object(can choose several objects at the same time)
 
 `current frame:`current operation frame, displayed in left   
 
-`tracking frames:`how many frames to track   
+`tracking frames:`the number of frames to track
 
 `save current label:`save current frame's label to memory  
 
@@ -86,9 +85,9 @@ show video's infomation
 
 `save gap:`save a frame every **gap** frames because of redundancy of the video  
 
-`detection:`saving mode, if select it will save XML format for **object detection**(label_detection folder, generate JPEGImages for images storage and Annotations for xml storage), otherwise save classification frames for **classification**(label_class folder, generate Images for images storage and a label_train.txt)  
+`detection:`saving mode, if selected it will save XML format for **object detection**(label_detection folder, generate JPEGImages for images storage and Annotations for xml storage), otherwise save classification frames for **classification**(label_class folder, generate Images for images storage and a label_train.txt)  
 
-`start saving:`start saving the result    
+`start saving:`start saving the result   
 **object detection result**   
 <p align="center">
   <img src="pic/detection_image.png", width="320">    
@@ -100,9 +99,9 @@ show video's infomation
   <img src="pic/classification.png", width="320">
 </p>    
 
-## license   
+## License   
 Free software: [license](LICENSE)   
 
-## mail   
+## Contact   
 if you have any question you can contact me:   
 **186368@zju.edu.cn**   or   **zhangzjn@qq.com**  
