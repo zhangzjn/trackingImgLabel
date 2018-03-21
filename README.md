@@ -13,7 +13,7 @@ Annotations can be both saved as XML files in PASCAL VOC format**(object detecti
 ## Ubuntu
 tested in ubuntu16.04, anaconda3-4.1.1.   
 link:[[download anaconda]](https://repo.continuum.io/)   
-after you installed anaconda(PyQt5 included), you must continue install opencv3 in the following commands    
+after you installed anaconda(PyQt5 included), you must continue install opencv3 by the following commands    
 `PATH_TO_CONDA/pip install opencv-python`   
 `PATH_TO_CONDA/pip install numpy --upgrade`   
 `PATH_TO_CONDA`refer to anaconda3/bin path   
