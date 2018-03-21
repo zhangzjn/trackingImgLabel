@@ -70,17 +70,17 @@ show video's infomation
 `save gap:`save a frame every `gap` frames because of redundancy of the video  
 `detection:`saving mode, if select it will save XML format for **object detection**(label_detection folder, generate JPEGImages for images storage and Annotations for xml storage), otherwise save classification frames for **classification**(label_class folder, generate Images for images storage and a label_train.txt)  
 `start saving:`start saving the result   
-**object detection result**  
+**object detection result**   
 <p align="center">
   <img src="pic/detection_image.png", width="320">    
   <img src="pic/detection_label.png", width="320">
 </p>     
-**classification result**  
+**classification result**   
 <p align="center">
   <img src="pic/classification.png", width="320">
-</p>   
-## license  
+</p>    
+## license   
 Free software: [license](LICENSE)   
-## mail  
+## mail   
 if you have any question you can contact me:   
 **186368@zju.edu.cn**   or   **zhangzjn@qq.com**  
