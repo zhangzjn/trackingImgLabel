@@ -45,6 +45,7 @@ link:[[download exe]](https://pan.baidu.com/s/1lxbdsljSyW_AI7G6sXqJnw)
 <p align="center">
   <img src="pic/video play.jpg", width="480">
 </p>   
+
 click left button to choose object(can choose several objects at the same time)   
 5. info dock  
 <p align="center">
