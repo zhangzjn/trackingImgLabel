@@ -81,7 +81,7 @@ show video's infomation
 
 `end frame:`end frame when saving  
 
-`save gap:`save a frame every `gap` frames because of redundancy of the video  
+`save gap:`save a frame every **gap** frames because of redundancy of the video  
 
 `detection:`saving mode, if select it will save XML format for **object detection**(label_detection folder, generate JPEGImages for images storage and Annotations for xml storage), otherwise save classification frames for **classification**(label_class folder, generate Images for images storage and a label_train.txt)  
 
@@ -91,6 +91,7 @@ show video's infomation
   <img src="pic/detection_image.png", width="320">    
   <img src="pic/detection_label.png", width="320">
 </p>     
+
 **classification result**   
 <p align="center">
   <img src="pic/classification.png", width="320">
