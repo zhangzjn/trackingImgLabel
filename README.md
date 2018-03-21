@@ -1,5 +1,5 @@
 # **trackingImgLabel**
-------------------
+======================  
 TrackingImgLabel is an automatic graphical image annotation tool with a video as input, which uses tracking algorithm to track the object. You can only label the first frame of the video, then the tracking algorithm will automaticlly tracking the objects.  
 Written in **python3.5**, using **opencv3** and **PyQt5**.  
 Annotations can be both saved as XML files in PASCAL VOC format**(object detection task)** and classification images**(classification task)**  
@@ -39,14 +39,17 @@ link:[[download exe]](https://pan.baidu.com/s/1lxbdsljSyW_AI7G6sXqJnw)
 ## **Usage**
 -------------------
 1. replace label.txt with your own classes  
+
 2. open a video  
-3. choose a save folder  
+
+3. choose a save folde  
+
 4. video play dock   
 <p align="center">
   <img src="pic/video play.jpg", width="480">
 </p>   
-
 click left button to choose object(can choose several objects at the same time)   
+
 5. info dock  
 <p align="center">
   <img src="pic/info.jpg", width="320">
@@ -57,11 +60,13 @@ click left button to choose object(can choose several objects at the same time)
 `erase current label:`erase current frame's label then you can re-label current frame  
 `start tracking:`track start from `current frame` to `current frame + tracking frames`
 after finishing tracking, you can change `current frame` value to check annotation, if not satisfying you can erase current frame's label and continue to re-label    
+
 6. video info  
 <p align="center">
   <img src="pic/video info.jpg", width="320">
 </p>  
 show video's infomation   
+
 7. save option   
 <p align="center">
   <img src="pic/save option.jpg", width="320">
@@ -80,8 +85,10 @@ show video's infomation
 <p align="center">
   <img src="pic/classification.png", width="320">
 </p>    
+
 ## license   
 Free software: [license](LICENSE)   
+
 ## mail   
 if you have any question you can contact me:   
 **186368@zju.edu.cn**   or   **zhangzjn@qq.com**  
