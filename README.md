@@ -42,7 +42,7 @@ link:[[download exe]](https://pan.baidu.com/s/1lxbdsljSyW_AI7G6sXqJnw)
 
 2. open a video  
 
-3. choose a save folde  
+3. choose a save folder  
 
 4. video play dock   
 <p align="center">
